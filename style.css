@@ -24,7 +24,7 @@ html, body {
   display: block;
   width: 100px;
   height: 100px;
-  background-color: #fff;
+  background: #fff;
   position: absolute;
   -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
   -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
