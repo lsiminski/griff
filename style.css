@@ -28,7 +28,7 @@ html, body {
   background: transparent;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:767px) {
 	
 		.box img {
 		  width: 300px;
