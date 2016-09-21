@@ -3,6 +3,7 @@ html, body {
    padding: 0px;
    margin: 0px;
    height: 100%;
+   width: 100%;
  }
 
 #gradient {
@@ -14,45 +15,15 @@ html, body {
 
 .box {
   background-color: transparent;
-  margin: 0 auto;
   width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
   position: relative;
   overflow: hidden;
 }
-.box b {
-  display: block;
+.box img {
   width: 100px;
   height: 100px;
-  background: #fff;
-  position: absolute;
-  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-}
-
-@-webkit-keyframes moveX {
-  from { left: 0; } to { left: 96%; }
-}
-@-moz-keyframes moveX {
-  from { left: 0; } to { left: 96%; }
-}
-@-o-keyframes moveX {
-  from { left: 0; } to { left: 96%; }
-}
-@keyframes moveX {
-  from { left: 0; } to { left: 96%; }
-}
-@-webkit-keyframes moveY {
-  from { top: 0; } to { top: 91%; }
-}
-@-moz-keyframes moveY {
-  from { top: 0; } to { top: 91%; }
-}
-@-o-keyframes moveY {
-  from { top: 0; } to { top: 91%; }
-}
-@keyframes moveY {
-  from { top: 0; } to { top: 91%; }
+  background: #transparent;
 }
